@@ -39,5 +39,13 @@ NOTE: Make sure that you have node installed in your system.
 
 ## Screenshots of the project
 
+- Landing Page
+<img src="./src/assets/Quiz_homepage.jpg">
+
+- Quiz Page
+<img src="./src/assets/Quiz_question.jpg">
+
+- Result Page
+<img src="./src/assets/result page.jpg">
 
 
