@@ -9,6 +9,8 @@ Currently, two official plugins are available:
 
 This is the frontend of the project built on react where I handled the API data to create a interactive and gamified quiz interface.
 
+[The link to the backend of the project](https://github.com/avigithubb/Testline_Assignement_backend)
+
 It has three parts
 
 - A *Start* or *Landing* page.
@@ -39,5 +41,13 @@ NOTE: Make sure that you have node installed in your system.
 
 ## Screenshots of the project
 
+- Landing Page
+<img src="./src/assets/Quiz_homepage.jpg">
+
+- Quiz Page
+<img src="./src/assets/Quiz_question.jpg">
+
+- Result Page
+<img src="./src/assets/result page.jpg">
 
 
