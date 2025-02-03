@@ -3,33 +3,26 @@ import Option from "./Option";
 
 function Objective(props){
 
-    // const [anotherScore, setScore] = useState({
-    //     score: 0
-    // });
-    // const [is_clicked, setClicked] = useState(false);
+    // Sending back true if the answer was right to Score function in Home.jsx.
     function myScore(){
-        // setScore(prevValue => ({
-        //     ...prevValue.score+1
-        // }))
-      
         props.newScore(true);
     }
 
+    // Sending back false if the answer was actually wrong to Score function in Home.jsx
     function wrong(){
         props.newScore(false)
     }
 
-    // console.log(anotherScore.score)
     
     return (
         <>
-            
+            {/* Showing the question description */}
             <p className="description">{props.questNo+1}.  {props.description}</p>
+            {/* Since the option key was a list hence, Rendering each answer options using the Option component.*/}
             {props.options.map(option=>(
                 <Option key = {option.id} description={option.description} is_true={option.is_correct} score={myScore} is_wrong={wrong}/>
             ))}
-            {/* {console.log(props.options)} */}
-            {/* <button>Next</button> */}
+            
             
         </>
     )
